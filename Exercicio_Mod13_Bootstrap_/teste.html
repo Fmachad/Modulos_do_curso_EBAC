@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício Bootstrap</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="lib/bootstrap.min.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <h1>Hotel-In</h1>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#quartos">Quartos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--Carousel Start-->
+        <div class="container" id="inicio">
+            <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div data-bs-interval="5000" class="carousel-item active">
+                        <img class="d-block w-100" src="images/hotel1.jpg" alt="Imagem hotel 1">
+                    </div>
+
+                    <div data-bs-interval="5000" class="carousel-item">
+                        <img class="d-block w-100" src="images/hotel2.jpg" alt="Imagem hotel 1">
+                    </div>
+
+                    <div data-bs-interval="5000" class="carousel-item">
+                        <img class="d-block w-100" src="images/hotel3.jpg" alt="Imagem hotel 1">
+                    </div>
+                </div>
+
+                <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+        <!--Carousel End-->
+
+        <!--Grid Start-->
+        <div class="container" id="quartos">
+            <h2>Quartos</h2>
+            <div class="row">
+                <!--Card1-->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            Algo aqui
+                        </header>
+                        <img src="https://via.placeholder.com/300x300" alt="#">
+                        <div class="card-body">
+                            <h4 class="card-title">Título</h4>
+                            <p class="card-text">Descrição</p>
+                            <a href="" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time> 09/07/2023 às 09:45</time>
+                        </footer>
+                    </article>
+                </div>
+                <!--Card1-->
+
+                <!--Card2-->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            Algo aqui
+                        </header>
+                        <img src="https://via.placeholder.com/300x300" alt="#">
+                        <div class="card-body">
+                            <h4 class="card-title">Título</h4>
+                            <p class="card-text">Descrição</p>
+                            <a href="" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time> 09/07/2023 às 09:45</time>
+                        </footer>
+                    </article>
+                </div>
+                <!--Card2-->
+
+                <!--Card3-->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            Algo aqui
+                        </header>
+                        <img src="https://via.placeholder.com/300x300" alt="#">
+                        <div class="card-body">
+                            <h4 class="card-title">Título</h4>
+                            <p class="card-text">Descrição</p>
+                            <a href="" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time> 09/07/2023 às 09:45</time>
+                        </footer>
+                    </article>
+                </div>
+                <!--Card3-->
+
+                <!--Card4-->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            Algo aqui
+                        </header>
+                        <img src="https://via.placeholder.com/300x300" alt="#">
+                        <div class="card-body">
+                            <h4 class="card-title">Título</h4>
+                            <p class="card-text">Descrição</p>
+                            <a href="" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time> 09/07/2023 às 09:45</time>
+                        </footer>
+                    </article>
+                </div>
+                <!--Card4-->
+
+                <!--Card5-->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            Algo aqui
+                        </header>
+                        <img src="https://via.placeholder.com/300x300" alt="#">
+                        <div class="card-body">
+                            <h4 class="card-title">Título</h4>
+                            <p class="card-text">Descrição</p>
+                            <a href="" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time> 09/07/2023 às 09:45</time>
+                        </footer>
+                    </article>
+                </div>
+                <!--Card5-->
+
+                <!--Card6-->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <header class="card-header">
+                            Algo aqui
+                        </header>
+                        <img src="https://via.placeholder.com/300x300" alt="#">
+                        <div class="card-body">
+                            <h4 class="card-title">Título</h4>
+                            <p class="card-text">Descrição</p>
+                            <a href="" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time> 09/07/2023 às 09:45</time>
+                        </footer>
+                    </article>
+                </div>
+                <!--Card6-->
+            </div>
+        </div>
+        <!--Grid End-->
+
+        <!--Contato Start-->
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                </div>
+            </div>
+        </div>
+        <!--Contato End-->
+
+        <footer class="bg-light text-center text-lg-start">
+            <div class="text-center p-3">
+                © 2023 Todos os direitos reservados:
+                <a class="text-dark" href="">Hotel-In</a>
+            </div>
+        </footer>
+        <script src="lib/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
