@@ -6,22 +6,43 @@ body {
     background-color: #e15f41;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav a.nav-link {
     background-color: #fff;
     color: #e15f41;
 }
 
-.nav .nav-link,
-.navbar-brand,
-.navbar-brand:hover {
+a.nav-link {
     color: #fff;
 }
 
-.navbar-brand {
-    font-family: Pacifico, cursive;
-    margin: 0;
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
 }
 
 .navbar-toggler {
     background-color: #fff;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-o-restaurante {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #e15f41;
 }
